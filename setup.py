@@ -8,7 +8,7 @@ from setuptools import setup
 HERE = os.path.abspath(os.path.dirname(__file__))
 
 # The text of the README file
-with open(os.path.join(HERE, "README.md")) as fid:
+with open(os.path.join(HERE, "README.md"),encoding="utf8") as fid:
     README = fid.read()
 
 __version__ = None  # set __version__ in this exec() call
