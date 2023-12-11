@@ -42,7 +42,7 @@ setup(
         "wikipedia",
         "wolframalpha",
         'aiohttp~=3.8.4',
-        'requests~=2.28.2',
+        'requests>=2.28.2',
         "google-api-python-client",
         "SQLAlchemy~=2.0.7",
         "selenium",
